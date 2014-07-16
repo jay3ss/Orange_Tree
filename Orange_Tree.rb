@@ -42,15 +42,3 @@ class Orange_Tree
 	end
 
 end
-
-orange_tree = Orange_Tree.new
-
-51.times do
-	orange_tree.one_year_passes
-end
-
-puts orange_tree.height
-puts orange_tree.age
-puts orange_tree.oranges
-orange_tree.pick_an_orange
-puts orange_tree.oranges
